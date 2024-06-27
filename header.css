@@ -1,8 +1,8 @@
 .cabecalho{
 
     background-color: var(--branco);
-    display: flex
-    justify-conten: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .cabecalho__menu-hamburguer{
@@ -11,7 +11,8 @@
     background-image: url("/img/Menu.svg");
     display: inline-block; 
     background-repeat: no-repeat;
-    
+    background-position: center;
+
 }
 
 .container{
