@@ -1,6 +1,7 @@
 .cabecalho{
 
     background-color: var(--branco);
+    display: inline-block; 
 }
 
 .cabecalho__menu-hamburguer{
