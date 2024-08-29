@@ -62,6 +62,10 @@
     display: none;
 }
 
+.opcoes{
+    display: none;
+}
+
 @media screen and (min-width: 800px) {
     .cabecalho__titulo{
         font-family: var(--fonte-secundaria);
@@ -72,5 +76,40 @@
 
     .cabecalho__titulo-negrito{
         font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes__item{
+        padding: 2em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho__imagem-transparente{
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+    .cabecalho__imagem{
+        padding: 1em;
+    }
+
+    .opcoes__botao:checked~.lista-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao{
+        display: none;
     }
 }
