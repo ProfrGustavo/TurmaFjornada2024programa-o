@@ -21,3 +21,17 @@ body{
     font-size: 16px;
     font-weigth: 400;
 }
+
+.recomendador {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.recomendador canvas {
+    border: 1px solid #000;
+    display: block;
+    margin: 0 auto;
+    width: 100%;  /* Ajusta o tamanho para caber no contêiner */
+    max-width: 800px; /* Define a largura máxima do canvas */
+    height: auto; /* Mantém a proporção do canvas */
+}
